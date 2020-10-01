@@ -8,7 +8,9 @@ OpenCV 3.4.10
 
 # インストール方法
 [python3.8.1](https://www.python.org/downloads/release/python-381/)<br>
-pip3 install opencv-python==3.4.9.33　←コマンドプロンプトで実行
+[OpenCV 3.4.10](https://sourceforge.net/projects/opencvlibrary/files/3.4.10/opencv-3.4.10-vc14_vc15.exe/download)<br>
+pip3 install opencv-python==3.4.9.33　←コマンドプロンプトで実行 <br>
+pip install numpy　←コマンドプロンプトで実行 <br>
 
 
 # 実行方法
