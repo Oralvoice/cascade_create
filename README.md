@@ -7,7 +7,7 @@ python3.8.1<br>
 OpenCV 3.4.10
 
 # インストール方法
-
+[python3.8.1](https://www.python.org/downloads/release/python-381/)
 
 # 実行方法
 Ⅰ. cascade_createフォルダを任意のフォルダにコピーする。<br>
@@ -17,6 +17,6 @@ OpenCV 3.4.10
 Ⅴ. [メインプログラム](/data_create.py) を実行し、学習させる単語とデータの水増しをするかどうかを入力する。<br>
 Ⅵ. プログラムの終了後、[command.txt](/WORDLIST/ask/command.txt) が生成されているので、command.txt内の文字をコマンドプロンプトへ入力する。<br>
 Ⅶ. コマンドの終了後、[/WORDLIST/単語/positive/cascade](/WORDLIST/ask/positive/cascade0) 内にcascade.xml が生成されている。<br>
-Ⅷ. 各cascade内のcascade.xmlをアプリ(OralVoice)に組み込む。<br>
+Ⅷ. 各cascadeフォルダ内のcascade.xmlをアプリ(OralVoice)に組み込む。<br>
 
 
