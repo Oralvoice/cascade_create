@@ -4,7 +4,7 @@
 # 実行方法
 Ⅰ. cascade_createフォルダを任意のフォルダにコピーする。<br>
 Ⅱ. [メインプログラム](/data_create.py) の7行目にある cd="D:\\cascade_create\\" をⅠで張り付けたフォルダパスに書き換える。<br>
-Ⅲ. /WORDLIST/任意の単語/video フォルダ内に分類器に学習させる動画(mp4形式)を張り付ける。動画ファイルの名前は 単語名_動画番号.mp4 にすること。<br>
+Ⅲ. [/WORDLIST/任意の単語/video](/WORDLIST/ask/) フォルダ内に分類器に学習させる動画(mp4形式)を張り付ける。動画ファイルの名前は 単語名_動画番号.mp4 にすること。<br>
 Ⅳ. data_create.py を実行し、学習させる単語とデータの水増しをするかどうかを入力する。<br>
 Ⅴ. プログラムの終了後、/command.txt が生成されているので、command.txt内の文字をコマンドプロンプトへ入力する。<br>
 Ⅵ. コマンドの終了後、/WORDLIST/単語/positive/cascade 内にcascade.xml が生成されている。<br>
