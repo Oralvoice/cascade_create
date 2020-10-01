@@ -8,6 +8,8 @@ OpenCV 3.4.10
 
 # インストール方法
 [python3.8.1](https://www.python.org/downloads/release/python-381/)
+[OpenCV 3.4.10](https://github.com/opencv/opencv/archive/3.4.10.zip)
+
 
 # 実行方法
 Ⅰ. cascade_createフォルダを任意のフォルダにコピーする。<br>
