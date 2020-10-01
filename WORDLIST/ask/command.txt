@@ -1,0 +1,6 @@
+copy /y D:\cascade_create\opencv_createsamples.exe D:\purokonOld\WORDLIST\ask\positive
+copy /y D:\cascade_create\opencv_traincascade.exe D:\purokonOld\WORDLIST\ask\positive
+copy /y D:\cascade_create\opencv_world3410.dll D:\purokonOld\WORDLIST\ask\positive
+cd/d D:\cascade_create\WORDLIST/ask/positive
+opencv_createsamples -info cascade0/info.dat -vec 0.vec -num 720
+opencv_traincascade -data cascade0/ -vec 0.vec -bg D:\cascade_create\WORDLIST/ask/negative/bg.dat -numPos 612 -numNeg 123 -featureType HAAR
