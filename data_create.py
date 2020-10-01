@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 import itertools
 
-cd = "D:\\prokon\\"
+cd = "D:\\cascade_create\\"
 
 print("学習させる単語を入力してください>")
 learningWord = input()
