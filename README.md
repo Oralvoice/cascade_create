@@ -4,7 +4,7 @@
 # 実行環境
 windows10<br>
 python3.8.1<br>
-OpenCV 3.4.9
+OpenCV 3.4.10
 
 # インストール方法
 
@@ -16,7 +16,7 @@ OpenCV 3.4.9
 Ⅳ. [/negativeData/customizeSamples](/negativeData/customizeSamples) フォルダ内に任意の不正解画像を入れる（この操作はしなくてもよい）。入れる場合は、名前をcustomize_番号.jpgとすること。<br>
 Ⅴ. [メインプログラム](/data_create.py) を実行し、学習させる単語とデータの水増しをするかどうかを入力する。<br>
 Ⅵ. プログラムの終了後、[command.txt](/WORDLIST/ask/command.txt) が生成されているので、command.txt内の文字をコマンドプロンプトへ入力する。<br>
-Ⅶ. コマンドの終了後、[/WORDLIST/単語/positive/cascade](/WORDLIST/ask/positive/cascade0] 内にcascade.xml が生成されている。<br>
+Ⅶ. コマンドの終了後、[/WORDLIST/単語/positive/cascade](/WORDLIST/ask/positive/cascade0) 内にcascade.xml が生成されている。<br>
 Ⅷ. 各cascade内のcascade.xmlをアプリ(OralVoice)に組み込む。<br>
 
 
