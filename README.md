@@ -7,8 +7,8 @@ python3.8.1<br>
 OpenCV 3.4.10
 
 # インストール方法
-[python3.8.1](https://www.python.org/downloads/release/python-381/)
-[OpenCV 3.4.10](https://github.com/opencv/opencv/archive/3.4.10.zip)
+[python3.8.1](https://www.python.org/downloads/release/python-381/)<br>
+pip3 install opencv-python==3.4.9.33　←コマンドプロンプトで実行
 
 
 # 実行方法
