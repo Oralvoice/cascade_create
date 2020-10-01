@@ -11,8 +11,8 @@
 Ⅶ. 各cascade内のcascade.xmlをアプリ(OralVoice)に組み込む
 
 # 実行環境
-windows10
-python3.8.1
+windows10<br>
+python3.8.1<br>
 OpenCV 3.4.8
 
 # インストール方法
