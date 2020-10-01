@@ -372,9 +372,9 @@ def command_create(cascadeNum):
         exit()
 
     f = open(cd + "WORDLIST/" + learningWord +"/command.txt", mode='w')
-    f.write("copy /y " + cd + "opencv_createsamples.exe D:\\purokonOld\\" + "WORDLIST\\" + learningWord + "\\positive\n")
-    f.write("copy /y " + cd + "opencv_traincascade.exe D:\\purokonOld\\" + "WORDLIST\\" + learningWord + "\\positive\n")
-    f.write("copy /y " + cd + "opencv_world3410.dll D:\\purokonOld\\" + "WORDLIST\\" + learningWord + "\\positive\n")
+    f.write("copy /y " + cd + "opencv_createsamples.exe " + cd + "WORDLIST\\" + learningWord + "\\positive\n")
+    f.write("copy /y " + cd + "opencv_traincascade.exe " + cd + "WORDLIST\\" + learningWord + "\\positive\n")
+    f.write("copy /y " + cd + "opencv_world3410.dll " + cd + "WORDLIST\\" + learningWord + "\\positive\n")
     f.write("cd/d " + cd + "WORDLIST/" + learningWord + "/positive\n")
 
     for i in range(cascadeNum):
