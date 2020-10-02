@@ -15,7 +15,7 @@ if hoge == 'yes':
 else:
     flag0 = False
 
-# 画像から顔を検出し、顔の下3分の1を切り取って返す関数
+# 画像から顔を検出し、顔の下半分を切り取って返す関数
 def cutUnderFaceFromImage(image):
     # カスケードファイルを利用した検出器(顔検出)を定義
     faceCascade = cv2.CascadeClassifier(cd + "haarcascade_frontalface_default.xml")
